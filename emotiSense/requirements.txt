@@ -5,10 +5,11 @@ tensorflow==2.21.0
 streamlit>=1.32.0
 
 # Computer Vision
-opencv-python>=4.8.0
+opencv-python-headless>=4.8.0
 
 # Image Processing
 Pillow>=10.0.0
+
 
 # Numerical Computing
 numpy>=1.24.0
