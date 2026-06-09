@@ -276,7 +276,7 @@ CHART_COLORS = ["#ef5350","#ab47bc","#7e57c2","#26a69a","#78909c","#42a5f5","#ff
 @st.cache_resource
 def load_my_model():
     try:
-        return load_model("emotion_model.keras")
+        return load_model("emotion_model_63.keras")
     except Exception as e:
         return None # Added fallback if model is not present
 
